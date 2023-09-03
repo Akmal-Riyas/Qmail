@@ -10,8 +10,8 @@ import random
 
 # default acc
 
-default_acc_pass = 'zsewpnjiocuigwgi'
-default_acc_email = 'emailsender437@gmail.com'
+default_acc_pass = 'test'
+default_acc_email = 'yourdomain@yourdomain.com'
 
 
 class SMTP:

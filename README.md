@@ -32,9 +32,7 @@ Qmail makes sending emails Quick and easy:
   - OTP Generator (Alpha Numerical & Numerical)
   - 3 HTML Themes
  
-####  👤 Email Addr That Anyone Can Use:
-  - Qmail uses emailsender437@gmail.com as a default account if you don't enter your own email.
-  - Perfect for testing
+
 
 
 ###
@@ -74,9 +72,9 @@ Qmail makes sending emails Quick and easy:
 
     ```python
     sender = Qmail.SMTP(\
-        EMAIL='yourmail@yourdomain.com', # Default: emailsender437@gmail.com
+        EMAIL='yourmail@yourdomain.com',
     
-        PASSWORD= 'Your App Password', # Default: emailsender437 pass
+        PASSWORD= 'Your App Password', 
         
         smtp= "smtp.domain.com", # Ex: smtp.gmail.com, Default : smtp.gmail.com
     
@@ -144,8 +142,6 @@ Qmail makes sending emails Quick and easy:
     ```python
     import Qmail
     
-    sender = Qmail.SMTP(reciever_emails= ['email1@gmail.com']) # Create a default Qmail smtp server 
-
     sender2 = Qmail.SMTP(\
         EMAIL='Your Mail Goes Here', 
         PASSWORD= "Your EMAIL'S app password goes here.", 
